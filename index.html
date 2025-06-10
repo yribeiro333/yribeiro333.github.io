@@ -10,18 +10,18 @@
 
 <body>
     <nav class="navigation">
-        <ul>
+        <ul class="menu">
             <li>
-                <a href="#home">Início</a>
+                <a href="#home" class="menu-link">Início</a>
             </li>
             <li>
-                <a href="#about">Sobre</a>
+                <a href="#about" class="menu-link">Sobre</a>
             </li>
             <li>
-                <a href="#projects">Projetos</a>
+                <a href="#projects" class="menu-link">Projetos</a>
             </li>
             <li>
-                <a href="#contact">Contato</a>
+                <a href="#contact" class="menu-link">Contato</a>
             </li>
         </ul>
     </nav>
@@ -30,7 +30,7 @@
         <div>
             <img src="./img/henrique.jpg" alt="my photo" class="profile-photo">
             <h1>Henrique Ribeiro</h1>
-            <p>**********************</p>
+            <p class="header-sub-title">**********************</p>
         </div>
     </main>
 
@@ -50,34 +50,42 @@
         <div class="projects-box">
 
             <div class="projects-card">
-                <img src="" alt="Project-1" class="projects-image">
-                <h3 class="info-projects">Projeto 1</h3>
-                <p class="paragraph-projects">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <img src="./img/projectcomingsoon.png" alt="Project-1" class="projects-image">
+                <div class="box-text-projects">
+                    <h3 class="info-projects">Projeto 1</h3>
+                    <p class="paragraph-projects">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
 
             <div class="projects-card">
-                <img src="" alt="Project-2" class="projects-image">
-                <h3 class="info-projects">Projeto 2</h3>
-                <p class="paragraph-projects">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <img src="./img/projectcomingsoon.png" alt="Project-2" class="projects-image">
+                <div class="box-text-projects">
+                    <h3 class="info-projects">Projeto 2</h3>
+                    <p class="paragraph-projects">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
 
             <div class="projects-card">
-                <img src="" alt="Project-3" class="projects-image">
-                <h3 class="info-projects">Projeto 3</h3>
-                <p class="paragraph-projects">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <img src="./img/projectcomingsoon.png" alt="Project-3" class="projects-image">
+                <div class="box-text-projects">
+                    <h3 class="info-projects">Projeto 3</h3>
+                    <p class="paragraph-projects">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contact" class="contact">
-        <h2 class="contact-tiltle">Contato</h2>
+        <h2 class="contact-tiltle">Entre em Contato</h2>
         <form class="form-contact" id="form">
             <div class="name-form">
                 <input placeholder="Nome" class="field-form">
             </div>
             <div class="group-form">
-                <textarea class="text-form" placeholder="Digite sua mensagem"></textarea>
+                <textarea class="field-form" placeholder="Digite sua mensagem"></textarea>
             </div>
+
+            <button type="submit" class="button-form">Enviar Whatsaap</button>
         </form>
     </section>
 
